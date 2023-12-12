@@ -17,5 +17,5 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: ${{ secrets.DOCKERHUB_USERNAME }}/gitops
+          repository: ${{ secrets.DOCKERHUB_USERNAME }}/fc-gitops
           tag: ${{ github.sha }}, latest
